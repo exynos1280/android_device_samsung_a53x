@@ -3342,7 +3342,7 @@
     </path>
 
     <path name="media-mic">
-        <path name="dev-main-mic" />
+        <path name="dev-dual-mic" />
         <path name="route-seriallif-24bit-to-wdma1" />
         <ctl name="ABOX VDSP4" value="wdma1-normal-capture" />
         <path name="set-atune-configs-spum0-wdma1" />
