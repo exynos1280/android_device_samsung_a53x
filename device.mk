@@ -50,4 +50,4 @@ PRODUCT_COPY_FILES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    WifiOverlayA25X
+    WifiOverlayA53X
