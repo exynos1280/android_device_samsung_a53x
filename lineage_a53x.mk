@@ -38,3 +38,9 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 31
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="a53xnaxx-user 15 AP3A.240905.015.A2 A536BXXUEFYE2 release-keys" \
+    BuildFingerprint=samsung/a53xnaxx/essi:15/AP3A.240905.015.A2/A536BXXUEFYE2:user/release-keys \
+    DeviceProduct=a53xnaxx \
+    SystemName=a53xnaxx
