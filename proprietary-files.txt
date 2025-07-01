@@ -67,7 +67,9 @@ vendor/lib64/liblmecpu.so
 vendor/lib64/libMERTA.so
 vendor/lib64/libsec2lsi_conversion.so
 vendor/lib64/libswlme.so
-vendor/lib64/libexynoscamera3.so
+
+# Patched camera HAL
+vendor/lib64/libexynoscamera3.so|176b6f7a17bbf29349b9cbb6aed9db9c7adbc223
 
 # Fingerprint
 vendor/lib64/libbauthserver.so
