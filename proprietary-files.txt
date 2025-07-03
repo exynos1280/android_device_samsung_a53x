@@ -1,8 +1,5 @@
 # Proprietary files - from Samsung package version A536BXXSFFYEA, unless pinned
 
-## Audio - Dolby Atmos
-vendor/lib/soundfx/libswdap.so
-
 # Audio Firmware
 vendor/firmware/a2dpcom.bin
 vendor/firmware/abox_tplg.bin
