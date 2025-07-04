@@ -25,6 +25,12 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 DEVICE_PATH := device/samsung/a53x
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.3-service-samsung.a53x \
+    sensors.samsung \
+    UdfpsHandler_a53x
+
 # Nfc
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.samsung
