@@ -23,6 +23,12 @@ namespace_imports = [
 ]
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/bin/vaultkeeperd': blob_fixup()
+        .binary_regex_replace(rb'ro\.factory\.factory_binary', b'ro.vendor.factory_binary\x00'),
+
+    'vendor/lib64/libvkservice.so': blob_fixup()
+        .binary_regex_replace(rb'ro\.factory\.factory_binary', b'ro.vendor.factory_binary\x00'),
+
     (
         'vendor/bin/hw/android.hardware.security.keymint-service.samsung',
         'vendor/lib64/libskeymint10device.so',
