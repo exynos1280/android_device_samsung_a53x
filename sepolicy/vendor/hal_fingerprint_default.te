@@ -1,2 +1,0 @@
-# UDFPS
-set_prop(hal_fingerprint_default, vendor_udfps_prop);
