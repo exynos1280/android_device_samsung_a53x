@@ -40,8 +40,6 @@ vendor/lib64/libswlme.so
 vendor/lib64/libexynoscamera3.so
 
 ## Fingerprint
-vendor/lib/libbauthserver.so
-vendor/lib/libbauthtzcommon.so
 vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
 
