@@ -98,6 +98,9 @@ vendor_ramdisk/vendor/firmware/gt9895_a53x.bin
 # Recovery firmware
 vendor_ramdisk/vendor/firmware/gt9895_a53x.bin:recovery/root/vendor/firmware/gt9895_a53x.bin
 
+# RIL
+vendor/etc/floating_feature.xml
+
 ## TEEGRIS Firmware
 vendor/tee/00000000-0000-0000-0000-000000010081
 vendor/tee/00000000-0000-0000-0000-000000020081
