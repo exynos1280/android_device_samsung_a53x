@@ -2,6 +2,22 @@
 
 # Audio - SoundBooster
 vendor/etc/SoundBoosterParam.txt
+vendor/lib/lib_SoundBooster_ver1100.so
+vendor/lib/soundfx/libsamsungSoundbooster_plus.so
+vendor/lib64/lib_SoundBooster_ver1100.so
+vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
+
+# Audio - SoundAlive
+vendor/lib/lib_SoundAlive_3DPosition_ver202.so
+vendor/lib/lib_SoundAlive_AlbumArt_ver105.so
+vendor/lib/lib_SoundAlive_play_plus_ver400.so
+vendor/lib/soundfx/libaudiosaplus_sec.so
+vendor/lib/soundfx/libmyspace.so
+vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
+vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
+vendor/lib64/lib_SoundAlive_play_plus_ver400.so
+vendor/lib64/soundfx/libaudiosaplus_sec.so
+vendor/lib64/soundfx/libmyspace.so
 
 # Audio Firmware
 vendor/firmware/a2dpcom.bin
