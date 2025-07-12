@@ -67,3 +67,21 @@ PRODUCT_COPY_FILES += \
 # WiFi
 PRODUCT_PACKAGES += \
     WifiOverlayA53X
+
+# Variant props
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/props/odm_a53x/odm_SM-A5360.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A5360.prop \
+    $(LOCAL_PATH)/configs/props/odm_a53x/odm_SM-A536B.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A536B.prop \
+		$(LOCAL_PATH)/configs/props/odm_a53x/odm_SM-A536E.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A536E.prop \
+    $(LOCAL_PATH)/configs/props/product_a53x/product_SM-A5360.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-A5360.prop \
+    $(LOCAL_PATH)/configs/props/product_a53x/product_SM-A536B.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-A536B.prop \
+		$(LOCAL_PATH)/configs/props/product_a53x/product_SM-A536E.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-A536E.prop \
+    $(LOCAL_PATH)/configs/props/system_a53x/system_SM-A5360.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A5360.prop \
+    $(LOCAL_PATH)/configs/props/system_a53x/system_SM-A536B.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A536B.prop \
+		$(LOCAL_PATH)/configs/props/system_a53x/system_SM-A536E.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A536E.prop \
+    $(LOCAL_PATH)/configs/props/system_ext_a53x/system_ext_SM-A5360.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-A5360.prop \
+    $(LOCAL_PATH)/configs/props/system_ext_a53x/system_ext_SM-A536B.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-A536B.prop \
+		$(LOCAL_PATH)/configs/props/system_ext_a53x/system_ext_SM-A536E.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-A536E.prop \
+    $(LOCAL_PATH)/configs/props/vendor_a53x/vendor_SM-A5360.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-A5360.prop \
+    $(LOCAL_PATH)/configs/props/vendor_a53x/vendor_SM-A536B.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-A536B.prop \
+		$(LOCAL_PATH)/configs/props/vendor_a53x/vendor_SM-A536E.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-A536E.prop

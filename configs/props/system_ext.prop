@@ -1,0 +1,2 @@
+# Import variant-specific properties
+import /system_ext/build_${ro.boot.em.model}.prop
