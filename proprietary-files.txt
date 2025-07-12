@@ -1,25 +1,6 @@
 # Proprietary files - from Samsung package version A536BXXSFFYEA, unless pinned
 
-# Audio - SoundBooster
-vendor/etc/SoundBoosterParam.txt
-vendor/lib/lib_SoundBooster_ver1100.so
-vendor/lib/soundfx/libsamsungSoundbooster_plus.so
-vendor/lib64/lib_SoundBooster_ver1100.so
-vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
-
-# Audio - SoundAlive
-vendor/lib/lib_SoundAlive_3DPosition_ver202.so
-vendor/lib/lib_SoundAlive_AlbumArt_ver105.so
-vendor/lib/lib_SoundAlive_play_plus_ver400.so
-vendor/lib/soundfx/libaudiosaplus_sec.so
-vendor/lib/soundfx/libmyspace.so
-vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
-vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
-vendor/lib64/lib_SoundAlive_play_plus_ver400.so
-vendor/lib64/soundfx/libaudiosaplus_sec.so
-vendor/lib64/soundfx/libmyspace.so
-
-# Audio Firmware
+# Audio - Firmware
 vendor/firmware/a2dpcom.bin
 vendor/firmware/abox_tplg.bin
 vendor/firmware/abox_tplg.conf
@@ -47,13 +28,32 @@ vendor/firmware/APDV_AUDIO_SLSI.bin:vendor/firmware/SM-A536E/APDV_AUDIO_SLSI.bin
 vendor/firmware/calliope_sram.bin:vendor/firmware/SM-A536E/calliope_sram.bin|734bfc6c0d7d473701872d262176feef18340b6e
 vendor/firmware/vts.bin:vendor/firmware/SM-A536E/vts.bin|e51f752278954da2993d1446f0f9347170fabe18
 
-## Bluetooth Firmware
+# Audio - SoundBooster
+vendor/etc/SoundBoosterParam.txt
+vendor/lib/lib_SoundBooster_ver1100.so
+vendor/lib/soundfx/libsamsungSoundbooster_plus.so
+vendor/lib64/lib_SoundBooster_ver1100.so
+vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
+
+# Audio - SoundAlive
+vendor/lib/lib_SoundAlive_3DPosition_ver202.so
+vendor/lib/lib_SoundAlive_AlbumArt_ver105.so
+vendor/lib/lib_SoundAlive_play_plus_ver400.so
+vendor/lib/soundfx/libaudiosaplus_sec.so
+vendor/lib/soundfx/libmyspace.so
+vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
+vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
+vendor/lib64/lib_SoundAlive_play_plus_ver400.so
+vendor/lib64/soundfx/libaudiosaplus_sec.so
+vendor/lib64/soundfx/libmyspace.so
+
+# Bluetooth - Firmware
 vendor/etc/wifi/mx140_bt.hcf
 
 # Camera
 vendor/lib64/hw/camera.s5e8825.so
 
-## Camera dependencies
+## Camera - Dependencies
 vendor/lib64/libexynoscamera_merta_plugin.so
 vendor/lib64/libexynoscamera_swlme_plugin.so
 vendor/lib64/libexynoscamera_vpl_plugin.so
@@ -63,11 +63,11 @@ vendor/lib64/libsec2lsi_conversion.so
 vendor/lib64/libswlme.so
 vendor/lib64/libexynoscamera3.so
 
-## Fingerprint
+# Fingerprint
 vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
 
-## Firmware
+# Firmware
 vendor/firmware/dax_param.bin
 vendor/firmware/default_configuration.flm.cfg.bin
 vendor/firmware/dual_cal_wide_sub.bin
@@ -104,12 +104,12 @@ vendor/firmware/tfa98xx.cnt
 vendor/firmware/txse1.bin
 vendor/firmware/txse2.bin
 
-## Firmware - from SM-A536B
+# Firmware - from SM-A536B
 vendor/firmware/mfc_fw.bin:vendor/firmware/SM-A536B/mfc_fw.bin
 vendor/firmware/NPU.bin:vendor/firmware/SM-A536B/NPU.bin
 vendor/firmware/os.checked.bin:vendor/firmware/SM-A536B/os.checked.bin
 
-## Firmware - from SM-A536E - A536EXXSFFYEA
+# Firmware - from SM-A536E - A536EXXSFFYEA
 vendor/firmware/mfc_fw.bin:vendor/firmware/SM-A536E/mfc_fw.bin|ccc66793853f89527e7c2f8a53c8252bdd063ac1
 vendor/firmware/NPU.bin:vendor/firmware/SM-A536E/NPU.bin|2c1cfbd861acb4e15fa90893df039b705922787a
 vendor/firmware/os.checked.bin:vendor/firmware/SM-A536E/os.checked.bin|b6dff75a70079c15c6595b7b6bb91682eebcf4a8
@@ -122,6 +122,7 @@ vendor/lib64/libskeymint_cli.so
 # Nfc
 system/etc/libnfc-nci.conf:vendor/etc/libnfc-nci.conf
 vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
+
 # Ramdisk firmware
 vendor_ramdisk/vendor/firmware/gt9895_a53x.bin
 
@@ -131,7 +132,7 @@ vendor_ramdisk/vendor/firmware/gt9895_a53x.bin:recovery/root/vendor/firmware/gt9
 # RIL
 vendor/etc/floating_feature.xml
 
-## TEEGRIS Firmware - from SM-A536B
+# TEEgris Firmware - from SM-A536B
 vendor/tee/00000000-0000-0000-0000-000000010081:vendor/tee_SM-A536B/00000000-0000-0000-0000-000000010081
 vendor/tee/00000000-0000-0000-0000-000000020081:vendor/tee_SM-A536B/00000000-0000-0000-0000-000000020081
 vendor/tee/00000000-0000-0000-0000-000000534b4d:vendor/tee_SM-A536B/00000000-0000-0000-0000-000000534b4d
@@ -169,7 +170,7 @@ vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:vendor/tee_SM-A536B/drive
 vendor/tee/ffffffff-0000-0000-0000-000000000030:vendor/tee_SM-A536B/ffffffff-0000-0000-0000-000000000030
 vendor/tee/tui/resolution_common/ID00000100:vendor/tee_SM-A536B/tui/resolution_common/ID00000100
 
-## TEEGRIS Firmware - from SM-A536E - A536EXXSFFYEA
+# TEEgris Firmware - from SM-A536E - A536EXXSFFYEA
 vendor/tee/00000000-0000-0000-0000-000000010081:vendor/tee_SM-A536E/00000000-0000-0000-0000-000000010081|0b9401aa0cb100c3f4e9c4e136f7120167809fca
 vendor/tee/00000000-0000-0000-0000-000000020081:vendor/tee_SM-A536E/00000000-0000-0000-0000-000000020081|67eeb31f948597aab8b0477f7622c1201da7e57c
 vendor/tee/00000000-0000-0000-0000-000000534b4d:vendor/tee_SM-A536E/00000000-0000-0000-0000-000000534b4d|0fdcd29fff9d3522df82dc5850518244b1cba3a1
@@ -207,7 +208,7 @@ vendor/tee/driver/00000000-0000-0000-0000-53626f786476:vendor/tee_SM-A536E/drive
 vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:vendor/tee_SM-A536E/driver/00000000-0000-0000-0000-564c544b4456|7fcb34dfedfe4f6c11cd8ad2fd859d709bdfda31
 vendor/tee/tui/resolution_common/ID00000100:vendor/tee_SM-A536E/tui/resolution_common/ID00000100|a091703ae478a3da9b16201f559d296a665d7b8d
 
-## VaultKeeper
+# VaultKeeper
 vendor/bin/vaultkeeperd
 vendor/bin/vendor.samsung.hardware.security.vaultkeeper@2.0-service
 vendor/etc/vintf/manifest/vaultkeeper_manifest.xml

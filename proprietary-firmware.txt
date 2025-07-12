@@ -28,6 +28,7 @@ up_param.bin_SM-A536E|a72680f2eb9a5da33a2c440b9d480610bb117d0a
 
 # File containing the supported models, one per line
 models|5d0c1b22c11c9af9dd3875c7946c7e6c867bffa7
+
 # Files containing Samsung package version for supported models
 version_SM-A536B|6affdea9637e097dc35540172df2e5c98a69faa0
 version_SM-A536E|2d37665c6089e8ecafa33448d84ba046ade0e052
