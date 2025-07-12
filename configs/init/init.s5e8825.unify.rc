@@ -1,5 +1,5 @@
 # a53xnaxx (eur_open)
-on fs && property:ro.boot.em.model=SM-A536B
+on early-init && property:ro.boot.em.model=SM-A536B
     # Firmware blobs
     mount none /vendor/firmware/SM-A536B/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
     mount none /vendor/firmware/SM-A536B/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
@@ -12,7 +12,7 @@ on fs && property:ro.boot.em.model=SM-A536B
     mount none /vendor/tee_SM-A536B /vendor/tee bind
 
 # a53xnsxx (cis_open)
-on fs && property:ro.boot.em.model=SM-A536E
+on early-init && property:ro.boot.em.model=SM-A536E
     # Firmware blobs
     mount none /vendor/firmware/SM-A536E/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
     mount none /vendor/firmware/SM-A536E/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
