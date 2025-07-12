@@ -1,0 +1,4 @@
+# Device - SM-A5360 variant
+ro.product.odm.model=SM-A5360
+ro.product.model=SM-A5360
+ro.product.name=chn_open

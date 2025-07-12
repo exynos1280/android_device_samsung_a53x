@@ -1,0 +1,4 @@
+# Device - SM-A536B variant
+ro.product.odm.model=SM-A536B
+ro.product.model=SM-A536B
+ro.product.name=a53xnaxx
