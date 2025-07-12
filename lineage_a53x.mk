@@ -36,7 +36,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_DEVICE := a53x
 PRODUCT_NAME := lineage_a53x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A536B
+PRODUCT_MODEL := SM-A536
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 31
 
