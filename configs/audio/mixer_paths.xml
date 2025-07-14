@@ -2352,7 +2352,7 @@
     <path name="communication-handset">
         <path name="dev-handset" />
         <ctl name="SPK Profile" value="call_rcv" />
-        <path name="route-apcall-rcv-playback" />
+        <path name="route-normal-rcv-playback" />
     </path>
 
     <path name="communication-speaker">
