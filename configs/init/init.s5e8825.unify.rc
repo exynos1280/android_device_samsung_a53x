@@ -1,3 +1,16 @@
+# a53xzc (chn_open)
+on early-init && property:ro.boot.em.model=SM-A5360
+    # Firmware blobs
+    mount none /vendor/firmware/SM-A5360/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-A5360/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-A5360/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SM-A5360/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SM-A5360/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SM-A5360/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SM-A5360/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SM-A5360 /vendor/tee bind
+
 # a53xnaxx (eur_open)
 on early-init && property:ro.boot.em.model=SM-A536B
     # Firmware blobs
