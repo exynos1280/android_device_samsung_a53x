@@ -2066,6 +2066,14 @@
     </path>
 
     <!-- FM Radio paths -->
+    <path name="recording-fm-tuner">
+        <path name="route-fm_radio-comp-pipeline" />
+    </path>
+
+    <path name="gain-recording-fm-tuner">
+        <path name="gain-fm_radio-headset" />
+    </path>
+
     <path name="route-fm_radio-comp-pipeline">
         <path name="dev-fm_radio-input" />
         <path name="acquire-abox-wakelock" />
