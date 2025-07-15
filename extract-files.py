@@ -44,11 +44,6 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libshim_crypto.so'),
     'vendor/lib64/libexynoscamera3.so': blob_fixup()
         .add_needed('libshim_camera.so'),
-    (
-        'vendor/lib/lib_SoundAlive_play_plus_ver400.so',
-        'vendor/lib64/lib_SoundAlive_play_plus_ver400.so',
-    ): blob_fixup()
-        .add_needed('liblog-samsung.so'),
 } # fmt: skip
 
 module = ExtractUtilsModule(
