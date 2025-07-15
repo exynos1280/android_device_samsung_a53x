@@ -110,7 +110,7 @@ vendor/firmware/SM-A536E/mfc_fw.bin|77403b06dfcb407b5ffc2b06f4518657036534fa
 vendor/firmware/SM-A536E/os.checked.bin|c582047ec46b46d1ead70d7b298953cf2bf1c9b9
 
 # Keymint
-vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.hardware.security.keymint-service.samsung
+vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.hardware.security.keymint-service.samsung;DISABLE_DEPS
 vendor/lib64/libskeymint10device.so
 vendor/lib64/libskeymint_cli.so
 
