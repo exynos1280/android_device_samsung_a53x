@@ -114,7 +114,6 @@ vendor/lib64/libskeymint10device.so
 vendor/lib64/libskeymint_cli.so
 
 # Nfc
-system/etc/libnfc-nci.conf:vendor/etc/libnfc-nci.conf
 vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
 
 # Ramdisk firmware
