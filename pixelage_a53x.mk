@@ -23,22 +23,29 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/samsung/a53x/device.mk)
 
 ## Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 ## UDFPS
 TARGET_HAS_UDFPS := true
 
-## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+## Inherit some common Pixelage stuff
+$(call inherit-product, vendor/pixelage/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a53x
-PRODUCT_NAME := lineage_a53x
+PRODUCT_NAME := pixelage_a53x
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A536
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 31
+
+# Pixelage
+PIXELAGE_BUILD := a53x
+PIXELAGE_MAINTAINER := Ksawlii
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="a53xnaxx-user 15 AP3A.240905.015.A2 A536BXXSGFYG1 release-keys" \
