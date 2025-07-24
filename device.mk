@@ -39,7 +39,8 @@ $(call soong_config_set,libfmjni,vendor,slsi)
 
 # init
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/init/init.s5e8825.unify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.s5e8825.unify.rc
+    $(DEVICE_PATH)/configs/init/init.s5e8825.unify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.s5e8825.unify.rc \
+    $(DEVICE_PATH)/configs/init/init.fingerprint.udfps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fingerprint.udfps.rc
 
 # Nfc
 PRODUCT_PACKAGES += \
@@ -64,6 +65,9 @@ PRODUCT_COPY_FILES += \
     $(EMPTY_PLACEHOLDER):$(TARGET_COPY_OUT_VENDOR)/firmware/os.checked.bin \
     $(EMPTY_PLACEHOLDER):$(TARGET_COPY_OUT_VENDOR)/firmware/NPU.bin \
     $(EMPTY_PLACEHOLDER):$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 # WiFi
 PRODUCT_PACKAGES += \
