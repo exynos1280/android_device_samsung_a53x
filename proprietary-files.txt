@@ -1,24 +1,24 @@
 # Proprietary files - from Samsung package version A536BXXSFFYEA, unless pinned
 
 # Audio - Firmware
-vendor/firmware/a2dpcom.bin
-vendor/firmware/abox_tplg.bin
-vendor/firmware/abox_tplg.conf
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
 vendor/firmware/APBiBF_AUDIO_SLSI.bin
 vendor/firmware/APSV_AUDIO_SLSI.bin
+vendor/firmware/SoundBoosterParam.bin
+vendor/firmware/a2dpcom.bin
+vendor/firmware/abox_tplg.bin
+vendor/firmware/abox_tplg.conf
 vendor/firmware/avsyncmix.bin
 vendor/firmware/bidirmic.bin
-vendor/firmware/SoundBoosterParam.bin
-vendor/firmware/sb_music.bin
 vendor/firmware/calliope_dram.bin
-vendor/firmware/volumemonitor.bin
 vendor/firmware/dolby.bin
 vendor/firmware/listenbackeffect.bin
+vendor/firmware/sb_music.bin
+vendor/firmware/volumemonitor.bin
 
 # Audio Firmware - from SM-A536B
-vendor/firmware/AP_AUDIO_SLSI.bin:vendor/firmware/SM-A536B/AP_AUDIO_SLSI.bin
 vendor/firmware/APDV_AUDIO_SLSI.bin:vendor/firmware/SM-A536B/APDV_AUDIO_SLSI.bin
+vendor/firmware/AP_AUDIO_SLSI.bin:vendor/firmware/SM-A536B/AP_AUDIO_SLSI.bin
 vendor/firmware/calliope_sram.bin:vendor/firmware/SM-A536B/calliope_sram.bin
 vendor/firmware/vts.bin:vendor/firmware/SM-A536B/vts.bin
 
@@ -29,8 +29,8 @@ vendor/firmware/SM-A5360/calliope_sram.bin|183cb748643ee2adaddae6227da4d5d2589ed
 vendor/firmware/SM-A5360/vts.bin|40727ba8136304e7cf41a0942e9a4dee0c69579d
 
 # Audio Firmware - from SM-A536E - A536EXXSFFYEA
-vendor/firmware/SM-A536E/AP_AUDIO_SLSI.bin|cfedf270210629341af3bd272ae72cc6bb29542e
 vendor/firmware/SM-A536E/APDV_AUDIO_SLSI.bin|cef9e0703e66f6558ed222418142c7f8a7de7427
+vendor/firmware/SM-A536E/AP_AUDIO_SLSI.bin|cfedf270210629341af3bd272ae72cc6bb29542e
 vendor/firmware/SM-A536E/calliope_sram.bin|734bfc6c0d7d473701872d262176feef18340b6e
 vendor/firmware/SM-A536E/vts.bin|e51f752278954da2993d1446f0f9347170fabe18
 
@@ -41,11 +41,11 @@ vendor/etc/wifi/mx140_bt.hcf
 vendor/lib64/hw/camera.s5e8825.so
 
 ## Camera - Dependencies
+vendor/lib64/libMERTA.so
 vendor/lib64/libexynoscamera_merta_plugin.so
 vendor/lib64/libexynoscamera_swlme_plugin.so
 vendor/lib64/libexynoscamera_vpl_plugin.so
 vendor/lib64/liblmecpu.so
-vendor/lib64/libMERTA.so
 vendor/lib64/libsec2lsi_conversion.so
 vendor/lib64/libswlme.so
 
@@ -57,6 +57,9 @@ vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
 
 # Firmware
+vendor/firmware/OD_V2.1.6_01_26_QVGA.nnc
+vendor/firmware/OD_V2.3.7_02_05_VGA.nnc
+vendor/firmware/SetMultiCalInfo.bin
 vendor/firmware/dax_param.bin
 vendor/firmware/default_configuration.flm.cfg.bin
 vendor/firmware/dual_cal_wide_sub.bin
@@ -70,8 +73,6 @@ vendor/firmware/lmecpu_IMX616.json
 vendor/firmware/lmecpu_IMX682.json
 vendor/firmware/lmecpu_S5KGD2.json
 vendor/firmware/lmecpu_S5KGW1.json
-vendor/firmware/OD_V2.1.6_01_26_QVGA.nnc
-vendor/firmware/OD_V2.3.7_02_05_VGA.nnc
 vendor/firmware/rxse.bin
 vendor/firmware/sb_others.bin
 vendor/firmware/sectiongraph_tplg.bin
@@ -85,7 +86,6 @@ vendor/firmware/setfile_hi1336.bin
 vendor/firmware/setfile_imx258.bin
 vendor/firmware/setfile_imx616.bin
 vendor/firmware/setfile_imx682.bin
-vendor/firmware/SetMultiCalInfo.bin
 vendor/firmware/swcnr_IMX682.json
 vendor/firmware/swcnr_S5KGW1.json
 vendor/firmware/tfa9878.bin
@@ -94,8 +94,8 @@ vendor/firmware/txse1.bin
 vendor/firmware/txse2.bin
 
 # Firmware - from SM-A536B
-vendor/firmware/mfc_fw.bin:vendor/firmware/SM-A536B/mfc_fw.bin
 vendor/firmware/NPU.bin:vendor/firmware/SM-A536B/NPU.bin
+vendor/firmware/mfc_fw.bin:vendor/firmware/SM-A536B/mfc_fw.bin
 vendor/firmware/os.checked.bin:vendor/firmware/SM-A536B/os.checked.bin
 
 # Firmware - from SM-A5360 - A5360ZCSFFYEA
@@ -104,8 +104,8 @@ vendor/firmware/SM-A5360/mfc_fw.bin|cc50e28669850c0b3bbd1b08359d1cd3268c0279
 vendor/firmware/SM-A5360/os.checked.bin|f7f634df94febeedd914447aa9a9699eff8898ec
 
 # Firmware - from SM-A536E - A536EXXSFFYEA
-vendor/firmware/SM-A536E/mfc_fw.bin|ccc66793853f89527e7c2f8a53c8252bdd063ac1
 vendor/firmware/SM-A536E/NPU.bin|2c1cfbd861acb4e15fa90893df039b705922787a
+vendor/firmware/SM-A536E/mfc_fw.bin|ccc66793853f89527e7c2f8a53c8252bdd063ac1
 vendor/firmware/SM-A536E/os.checked.bin|b6dff75a70079c15c6595b7b6bb91682eebcf4a8
 
 # Keymint
@@ -156,11 +156,11 @@ vendor/tee/00000000-0000-0000-0000-657365636f6d:vendor/tee/SM-A536B/00000000-000
 vendor/tee/00000000-0000-0000-0000-6b6e78677564:vendor/tee/SM-A536B/00000000-0000-0000-0000-6b6e78677564
 vendor/tee/00000000-0000-0000-0000-6d706f667376:vendor/tee/SM-A536B/00000000-0000-0000-0000-6d706f667376
 vendor/tee/00000000-0000-0000-0000-6d73745f5441:vendor/tee/SM-A536B/00000000-0000-0000-0000-6d73745f5441
-vendor/tee/ffffffff-0000-0000-0000-000000000030:vendor/tee/SM-A536B/ffffffff-0000-0000-0000-000000000030
 vendor/tee/driver/00000000-0000-0000-0000-494363447256:vendor/tee/SM-A536B/driver/00000000-0000-0000-0000-494363447256
 vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374:vendor/tee/SM-A536B/driver/00000000-0000-0000-0000-4d53546d7374
 vendor/tee/driver/00000000-0000-0000-0000-53626f786476:vendor/tee/SM-A536B/driver/00000000-0000-0000-0000-53626f786476
 vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:vendor/tee/SM-A536B/driver/00000000-0000-0000-0000-564c544b4456
+vendor/tee/ffffffff-0000-0000-0000-000000000030:vendor/tee/SM-A536B/ffffffff-0000-0000-0000-000000000030
 vendor/tee/tui/resolution_common/ID00000100:vendor/tee/SM-A536B/tui/resolution_common/ID00000100
 
 # TEEgris Firmware - from SM-A5360 - A5360ZCSFFYEA
@@ -236,20 +236,20 @@ vendor/tee/SM-A536E/00000000-0000-0000-0000-657365636f6d|56817352311b8ea97430738
 vendor/tee/SM-A536E/00000000-0000-0000-0000-6b6e78677564|f465d6b9953a7227703853206e1e39e09cd12f97
 vendor/tee/SM-A536E/00000000-0000-0000-0000-6d706f667376|330671a9317e2dcadf6ce16a2b5dfa0ea07c8f64
 vendor/tee/SM-A536E/00000000-0000-0000-0000-6d73745f5441|657271405a24448aabcbf77b78be98265f102cc2
-vendor/tee/SM-A536E/ffffffff-0000-0000-0000-000000000030|257b25748d2e623e322fd5874cc5c979343595ef
 vendor/tee/SM-A536E/driver/00000000-0000-0000-0000-494363447256|01499774cd0749abcd868c2d1066377b05f564cd
 vendor/tee/SM-A536E/driver/00000000-0000-0000-0000-4d53546d7374|52248a158065deb1592b3f3aa26cc42f0fa3d88a
 vendor/tee/SM-A536E/driver/00000000-0000-0000-0000-53626f786476|61b2f5f4f08818bbb519b76c38ff9f5f36421ef4
 vendor/tee/SM-A536E/driver/00000000-0000-0000-0000-564c544b4456|7fcb34dfedfe4f6c11cd8ad2fd859d709bdfda31
+vendor/tee/SM-A536E/ffffffff-0000-0000-0000-000000000030|257b25748d2e623e322fd5874cc5c979343595ef
 vendor/tee/SM-A536E/tui/resolution_common/ID00000100|a091703ae478a3da9b16201f559d296a665d7b8d
 
 # VaultKeeper
 vendor/bin/vaultkeeperd
 vendor/bin/vendor.samsung.hardware.security.vaultkeeper@2.0-service
 vendor/etc/vintf/manifest/vaultkeeper_manifest.xml
-vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@2.0.so
 vendor/lib64/libstork_shared.so
 vendor/lib64/libvkservice.so
+vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@2.0.so
 
 # Wi-Fi
 vendor/etc/wifi/mx140_common.hcf
