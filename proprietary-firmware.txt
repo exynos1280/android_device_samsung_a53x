@@ -12,19 +12,19 @@ tzsw.img_SM-A5360|5a8704ba19dab72f2ab2ffae39d46d05cf67e315
 uh.bin_SM-A5360|32f106c4f24331a476dfa3352ee1fc25d2125bbe
 up_param.bin_SM-A5360|c58fb775e84fb9925f99fb5a87a6dd9cacb9e3ab
 
-# Firmware for model SM-A536B - from Samsung package version A536BXXSFFYEA
+# Firmware for model SM-A536B - from Samsung package version A536BXXSGFYG1
 
-fld.bin_SM-A536B|754b7e12bb8e90ff9641aff53a13c8af8ccbc840
-harx.bin_SM-A536B|f13f75c330965880c5e0b08007ba7f1714d06f0a
-keystorage.bin_SM-A536B|ae579f149dce73cb826e0f777be6787ca6ab639a
-ldfw.img_SM-A536B|9170baf11ce4bcf404e400c9fcbbf8cc40164bb9
-modem.bin_SM-A536B|44d08f325f6d8f21a9fd66784f90c657b9faf272
-modem_debug.bin_SM-A536B|9601c0da81d282d98ce3fc429e97a848d5c37154
-sboot.bin_SM-A536B|1114a305a845b53cc616d1b0b1fc6ee9d84a7a76
-tzsw.img_SM-A536B|4c820a14cab55b932f52cbb2d9f024c4e6040914
-tzar.img_SM-A536B|77f227b6b33c1cd3ca782430aefdac4bb66d1cf1
-uh.bin_SM-A536B|0146310f4859eac481c827f00e2d5ba31a551cec
-up_param.bin_SM-A536B|4e400ce3271aa54d3006572e4cbd79bd6d19222e
+fld.bin_SM-A536B|91ba4a3c26c636fd583303caa6eefef2efbc53db
+harx.bin_SM-A536B|cfebe9e5a1475a22f1f2fe2b7872bb3b5e1336b9
+keystorage.bin_SM-A536B|4c0f3c1b03072717fd42e5125caa2dc93f971b0e
+ldfw.img_SM-A536B|16b345ce34e541157c0ef2e1068522de70a126bd
+modem.bin_SM-A536B|691d7a5fb502ebc2bc9fd1458f138695d7f74449
+modem_debug.bin_SM-A536B|495e5f529cd52ab30ee73991f7e73b7781719009
+sboot.bin_SM-A536B|4cd3dbb8823740587dc4ebe926df0da617662c7a
+tzar.img_SM-A536B|2e9eb5ff33cd4d9100bcfdcafe3e5e86a9348ca8
+tzsw.img_SM-A536B|a3754f4a3ad8dcbae9c777dc9338e8a976b07954
+uh.bin_SM-A536B|1bf08d9a78f903195bf6a38fab25e35cb4c2747d
+up_param.bin_SM-A536B|5bbde2b11a7c551da737e3cf5c2d232b55ed03fe
 
 # Firmware for model SM-A536E - from Samsung package version A536EXXSFFYEA
 
@@ -45,5 +45,5 @@ models|b949bbfb9b87a6d418a0e65e4faac577278a9617
 
 # Files containing Samsung package version for supported models
 version_SM-A5360|84a81df62b9615ef74b99dd8a800c8a87311e003
-version_SM-A536B|6affdea9637e097dc35540172df2e5c98a69faa0
+version_SM-A536B|db4df53c96c8d6f2b29076c4d86a308e1b13b0cf
 version_SM-A536E|2d37665c6089e8ecafa33448d84ba046ade0e052
