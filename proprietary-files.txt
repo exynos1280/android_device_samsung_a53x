@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version A536BXXSFFYEA, unless pinned
+# Proprietary files - from Samsung package version A536BXXSGFYG1, unless pinned
 
 # Audio - Firmware
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
@@ -50,7 +50,7 @@ vendor/lib64/libsec2lsi_conversion.so
 vendor/lib64/libswlme.so
 
 # Patched camera HAL
-vendor/lib64/libexynoscamera3.so|176b6f7a17bbf29349b9cbb6aed9db9c7adbc223
+vendor/lib64/libexynoscamera3.so|72a4730e9393e19155da3d56bbc3f0f5cc13a881|4bd65a4f35c25ade77fb131be8844ccd800d6379
 
 # Fingerprint
 vendor/lib64/libbauthserver.so
