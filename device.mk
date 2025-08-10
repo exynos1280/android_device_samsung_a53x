@@ -25,6 +25,8 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 DEVICE_PATH := device/samsung/a53x
 
+PRODUCT_CHARACTERISTICS := phone
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml \
