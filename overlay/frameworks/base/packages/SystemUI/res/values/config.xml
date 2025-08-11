@@ -15,12 +15,6 @@
 -->
 
 <resources>
-    <!-- The radius of the enrollment progress bar, in dp -->
-    <integer name="config_udfpsEnrollProgressBar" translatable="false">70</integer>
-
     <!-- Color of the FOD view -->
     <color name="config_udfpsColor">#00ff50</color>
-
-    <!-- Udfps vendor code -->
-    <integer name="config_udfps_vendor_code">455</integer>
 </resources>
