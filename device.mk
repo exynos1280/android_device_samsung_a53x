@@ -55,8 +55,8 @@ PRODUCT_COPY_FILES += \
     $(EMPTY_PLACEHOLDER):$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin
 
 # UDFPS
-$(call soong_config_set,samsung_udfps,udfps_zorder,0x2000U)
-$(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:libudfps_extension.samsung)
+#$(call soong_config_set,samsung_udfps,udfps_zorder,0x2000U)
+#$(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:libudfps_extension.samsung)
 
 # Variant props
 PRODUCT_COPY_FILES += \
