@@ -54,6 +54,10 @@ PRODUCT_COPY_FILES += \
     $(EMPTY_PLACEHOLDER):$(TARGET_COPY_OUT_VENDOR)/firmware/NPU.bin \
     $(EMPTY_PLACEHOLDER):$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin
 
+# UDFPS
+$(call soong_config_set,samsung_udfps,udfps_zorder,0x2000U)
+$(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:libudfps_extension.samsung)
+
 # Variant props
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/props/odm_a53x/odm_SM-A5360.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A5360.prop \
