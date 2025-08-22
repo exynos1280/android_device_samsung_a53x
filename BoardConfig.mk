@@ -21,6 +21,9 @@ include device/samsung/s5e8825-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/a53x
 
+# Kernel
+TARGET_KERNEL_CONFIG += a53x.config
+
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 
