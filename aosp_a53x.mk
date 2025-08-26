@@ -17,12 +17,9 @@
 # Inherit from a53x device
 $(call inherit-product, device/samsung/a53x/device.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
 # Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a53x
-PRODUCT_NAME := lineage_a53x
+PRODUCT_NAME := aosp_a53x
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A536B
 PRODUCT_MANUFACTURER := samsung

@@ -31,9 +31,6 @@ PRODUCT_PACKAGES += \
     mixer_gains.xml \
     mixer_paths.xml
 
-# Fingerprint - Sensor
-PRODUCT_PACKAGES += sensors.samsung
-
 # Init
 PRODUCT_PACKAGES += \
     init.a53x.rc \
@@ -65,7 +62,3 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
-
-# UDFPS
-$(call soong_config_set,samsungUdfpsVars,udfps_zorder,0x2000U)
-$(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:libudfps_extension.samsung)
