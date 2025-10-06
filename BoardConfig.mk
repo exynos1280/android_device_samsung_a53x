@@ -24,6 +24,9 @@ DEVICE_PATH := device/samsung/a53x
 # DTBO
 BOARD_DTBO_CFG := $(DEVICE_PATH)/configs/kernel/a53x.cfg
 
+# Manifest
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
