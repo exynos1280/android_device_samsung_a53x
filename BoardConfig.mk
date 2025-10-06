@@ -24,6 +24,9 @@ DEVICE_PATH := device/samsung/a53x
 # DTBO
 BOARD_DTBO_CFG := $(DEVICE_PATH)/configs/kernel/a53x.cfg
 
+# Kernel
+TARGET_KERNEL_CONFIG += a53x.config
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
