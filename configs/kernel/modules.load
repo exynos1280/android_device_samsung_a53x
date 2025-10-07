@@ -253,7 +253,6 @@ sb-core.ko
 mesh.ko
 vibrator_vib_info.ko
 sec_common_fn.ko
-sec_cmd.ko
 vbus_notifier.ko
 fingerprint.ko
 fingerprint_sysfs.ko
