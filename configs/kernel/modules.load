@@ -294,5 +294,4 @@ snd-soc-samsung-vts.ko
 snd-soc-samsung-slif.ko
 exynos8825_audio.ko
 sec_audio_sysfs.ko
-sec_audio_debug.ko
 cfg80211.ko
