@@ -251,7 +251,6 @@ dropdump.ko
 common_muic.ko
 sb-core.ko
 mesh.ko
-kperfmon.ko
 vibrator_vib_info.ko
 sec_tsp_log.ko
 sec_tsp_dumpkey.ko
