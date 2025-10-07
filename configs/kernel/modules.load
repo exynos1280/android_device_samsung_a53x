@@ -231,7 +231,7 @@ sec_argos.ko
 pmic_class.ko
 mcd-panel-s6e3fc3_a53x.ko
 dev_ril_bridge.ko
-mcd-panel.ko
+mcd-panel-decon.ko
 sec_vibrator.ko
 sec_debug.ko
 sec_debug_test.ko
