@@ -58,7 +58,7 @@ vendor/lib64/libswlme.so
 # Camera - Patched HAL
 vendor/lib64/libexynoscamera3.so|225263625757bdc2203acfaaa3fbacfbfdcbaea6|a3e34c1a0127dc8a227b135e26fcf3856e113f49
 
-# Fingerprint
+# Fingerprint - Dependencies
 vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
 
@@ -122,11 +122,6 @@ vendor/firmware/SM-A536N/NPU.bin|85d57443db8a9bfa37bccdc9b485b8214a95950c
 vendor/firmware/SM-A536N/mfc_fw.bin|0baedb5a017b2425bbfbbc1f9513dbf777786343
 vendor/firmware/SM-A536N/os.checked.bin|d09bf28af31a12a3f07cfefb3b20a762d23b79b3
 
-# Keymint
-vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.hardware.security.keymint-service.samsung
-vendor/lib64/libskeymint10device.so
-vendor/lib64/libskeymint_cli.so
-
 # Ramdisk - Firmware
 vendor/firmware/gt9895_a53x.bin:vendor_ramdisk/vendor/firmware/gt9895_a53x.bin
 
@@ -136,7 +131,12 @@ vendor/firmware/gt9895_a53x.bin:recovery/root/vendor/firmware/gt9895_a53x.bin
 # RIL
 vendor/etc/floating_feature.xml
 
-# TEEgris - Firmware - for SM-A536B
+# Security - Keymint
+vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.hardware.security.keymint-service.samsung
+vendor/lib64/libskeymint10device.so
+vendor/lib64/libskeymint_cli.so
+
+# Security - TEEgris - Firmware - for SM-A536B
 vendor/tee/driver/00000000-0000-0000-0000-494363447256:vendor/tee/SM-A536B/driver/00000000-0000-0000-0000-494363447256
 vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374:vendor/tee/SM-A536B/driver/00000000-0000-0000-0000-4d53546d7374
 vendor/tee/driver/00000000-0000-0000-0000-53626f786476:vendor/tee/SM-A536B/driver/00000000-0000-0000-0000-53626f786476
@@ -174,7 +174,7 @@ vendor/tee/00000000-0000-0000-0000-6d706f667376:vendor/tee/SM-A536B/00000000-000
 vendor/tee/00000000-0000-0000-0000-6d73745f5441:vendor/tee/SM-A536B/00000000-0000-0000-0000-6d73745f5441
 vendor/tee/ffffffff-0000-0000-0000-000000000030:vendor/tee/SM-A536B/ffffffff-0000-0000-0000-000000000030
 
-# TEEgris Firmware - from SC-53C - SC53COMU1DYF2
+# Security - TEEgris - Firmware - from SC-53C - SC53COMU1DYF2
 vendor/tee/SC-53C/driver/00000000-0000-0000-0000-494363447256|08c6bdd64b1c4fb0d79d3e215b7c2a2f67e2ff7a
 vendor/tee/SC-53C/driver/00000000-0000-0000-0000-4d53546d7374|d4fb663ecc1b02402e0395bbf69f7e9be46d91f7
 vendor/tee/SC-53C/driver/00000000-0000-0000-0000-53626f786476|f33ccb49cd087584783da9fc5cfbd052f99965ed
@@ -211,7 +211,7 @@ vendor/tee/SC-53C/00000000-0000-0000-0000-6d706f667376|4782d7f5c58c614b8829d11d0
 vendor/tee/SC-53C/00000000-0000-0000-0000-6d73745f5441|ab03bbb2cd53d98bc48a1e8e59b8a932fa73d1e7
 vendor/tee/SC-53C/ffffffff-0000-0000-0000-000000000030|6b86502f006a6ff83ac6abda932258b87525eeaf
 
-# TEEgris Firmware - from SM-A5360 - A5360ZCSHFYH1
+# Security - TEEgris - Firmware - from SM-A5360 - A5360ZCSHFYH1
 vendor/tee/SM-A5360/driver/00000000-0000-0000-0000-42494f415448|2feb1a142814fff3f759ff8a09961eb4e6746947
 vendor/tee/SM-A5360/driver/00000000-0000-0000-0000-494363447256|805ac7ea0a2ddd956a3ffd227095162eff024500
 vendor/tee/SM-A5360/driver/00000000-0000-0000-0000-4d53546d7374|e26ad624c04af396f2f0a24be086a6717e01a356
@@ -253,7 +253,7 @@ vendor/tee/SM-A5360/00000000-0000-0000-0000-6d706f667376|0e7e37ce05a24862ba01247
 vendor/tee/SM-A5360/00000000-0000-0000-0000-6d73745f5441|6738f2fd9abd71d49d23df08e9f7517432c437ef
 vendor/tee/SM-A5360/ffffffff-0000-0000-0000-000000000030|f4e00565f60d1c13596d6b6cdb371928b55e17aa
 
-# TEEgris Firmware - from SM-A536E - A536EXXSHFYI4
+# Security - TEEgris - Firmware - from SM-A536E - A536EXXSHFYI4
 vendor/tee/SM-A536E/driver/00000000-0000-0000-0000-494363447256|22fb0ee11bf554a6d7bac6bcb0b4b6cceaf8feee
 vendor/tee/SM-A536E/driver/00000000-0000-0000-0000-4d53546d7374|e548226feb6ea781d5d830e0d802d026e7cf056c
 vendor/tee/SM-A536E/driver/00000000-0000-0000-0000-53626f786476|1ba46d58298881994959b0a6addb78286204e3af
@@ -291,7 +291,7 @@ vendor/tee/SM-A536E/00000000-0000-0000-0000-6d706f667376|15b033f024cab4b75422a14
 vendor/tee/SM-A536E/00000000-0000-0000-0000-6d73745f5441|4e7c62eee2ef18bb99163680f78d0c3f14a2bcae
 vendor/tee/SM-A536E/ffffffff-0000-0000-0000-000000000030|62bd60e4f285c27287dfd2cfbdf917bbc2dcdce7
 
-# TEEgris Firmware - from SM-A536N - A536NKSSCFYH1
+# Security - TEEgris - Firmware - from SM-A536N - A536NKSSCFYH1
 vendor/tee/SM-A536N/driver/00000000-0000-0000-0000-494363447256|85185c140def5df062352744ad702a77bf272b7e
 vendor/tee/SM-A536N/driver/00000000-0000-0000-0000-4d53546d7374|d6235869d7e9e0d5b2b4afdb9a6730bb0058162d
 vendor/tee/SM-A536N/driver/00000000-0000-0000-0000-53626f786476|1a475841b2fa66e373f7517bf12121b6ed622956
