@@ -40,6 +40,12 @@ vendor/firmware/SM-A536N/AP_AUDIO_SLSI.bin|438af04e62a75bb414fb843e3ce29eb979d5a
 vendor/firmware/SM-A536N/calliope_sram.bin|360a3f31430908796533ed4eaef5598b66d4ae5c
 vendor/firmware/SM-A536N/vts.bin|4ccfc501ab09972c8f26c2581312770f7700b701
 
+# Audio - Firmware - Placeholders
+vendor/firmware/APDV_AUDIO_SLSI.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/AP_AUDIO_SLSI.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/calliope_sram.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/vts.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+
 # Bluetooth - Firmware
 vendor/etc/wifi/mx140_bt.hcf
 
@@ -121,6 +127,11 @@ vendor/firmware/SM-A536E/os.checked.bin|3539f16548e01ff06da39976fc6e3ba5174de41c
 vendor/firmware/SM-A536N/NPU.bin|85d57443db8a9bfa37bccdc9b485b8214a95950c
 vendor/firmware/SM-A536N/mfc_fw.bin|0baedb5a017b2425bbfbbc1f9513dbf777786343
 vendor/firmware/SM-A536N/os.checked.bin|d09bf28af31a12a3f07cfefb3b20a762d23b79b3
+
+# Firmware - Placeholders
+vendor/firmware/NPU.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/mfc_fw.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/os.checked.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
 
 # Ramdisk - Firmware
 vendor/firmware/gt9895_a53x.bin:vendor_ramdisk/vendor/firmware/gt9895_a53x.bin
