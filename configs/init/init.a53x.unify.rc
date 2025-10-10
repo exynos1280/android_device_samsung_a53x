@@ -37,7 +37,7 @@ on early-init && property:ro.boot.em.model=SM-A536E
     # TEEgris
     mount none /vendor/tee/SM-A536E /vendor/tee bind
 
-# a53xksx
+# a53xksx (kor_open)
 on early-init && property:ro.boot.em.model=SM-A536N
     # Firmware blobs
     mount none /vendor/firmware/SM-A536N/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
