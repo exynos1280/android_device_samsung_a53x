@@ -1,6 +1,3 @@
-# Bluetooth
-bluetooth.device.default_name=Galaxy A53 5G
-
 # Display
 ro.surface_flinger.set_display_power_timer_ms=200
 ro.surface_flinger.set_idle_timer_ms=1000
