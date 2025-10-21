@@ -1,5 +1,0 @@
-# Fingerprint
-ro.vendor.fingerprint.type=udfps_optical
-ro.vendor.fingerprint.sensor_location=540|2092|118
-ro.vendor.fingerprint.force_calibrate=true
-ro.vendor.fingerprint.request_touch_event=true
