@@ -10,17 +10,17 @@ tzar.img_SC-53C|05be35e6ae6589f24245cbe7ffb9b42aad170ef3
 tzsw.img_SC-53C|aefccd20f832a31031269194aec00b70e1e45665
 uh.bin_SC-53C|93de45cb1f34fed539e27fd3cd2256e9b2cc8eed
 
-# Firmware for model SM-A5360 - from Samsung package version A5360ZCSHFYH1
-fld.bin_SM-A5360|8c2c1cc4dd28e17b640711c26800ecb73469de8c
-harx.bin_SM-A5360|1364ceae7330ef842cd616a723fe58159ace3108
-keystorage.bin_SM-A5360|7d0195e90762717e127b118132f6db953c2b6797
-ldfw.img_SM-A5360|761683746cc60b102f18839757f78df546644993
-modem.bin_SM-A5360|d0a545949c318ed134aafa6edc0d829735a8ecfb
+# Firmware for model SM-A5360 - from Samsung package version A5360ZHSHFYI1
+fld.bin_SM-A5360|ae0b48ebaa734fe934b6c42ccf1a6dd2313d3944
+harx.bin_SM-A5360|0fc438ccb9834f404d0947ea4df51123cb0fea91
+keystorage.bin_SM-A5360|8af1c4d5af82437b7ebabea5f96929e320328443
+ldfw.img_SM-A5360|1e653358b059bd9df7dad70aa340943ceaddd29c
+modem.bin_SM-A5360|dbcd2e0effc737f63e6758d7e0a8f08351654460
 modem_debug.bin_SM-A5360|8209076e7b85c8a2ca0f597d3da5c1be82b3140a
-sboot.bin_SM-A5360|f48304d77982f2cb4d6fbd1be6096c1c573e50df
-tzar.img_SM-A5360|0f3a1dc373816047927a48ed3b0a2e293bbb26bd
-tzsw.img_SM-A5360|e216ad4bb5e2812a5eb420aa54041184d0c9b3d5
-uh.bin_SM-A5360|d6197102f2c03db3cdb276fa048b04fca8bd83f9
+sboot.bin_SM-A5360|290769095c3cc8a14533b6e62197a4516af6c4c1
+tzar.img_SM-A5360|f32693ccece1372a8c05de9ab847dce75b1eae00
+tzsw.img_SM-A5360|b90128c8d4357f6e04419613c16e6762efd51fd1
+uh.bin_SM-A5360|5da284d4b8b1be83a6872276c300ba0ff2aae358
 
 # Firmware for model SM-A536B - from Samsung package version A536BXXSHFYI1
 fld.bin_SM-A536B|603faeb08332a4f6fa37ab1e963299fbd5d9c2c3
@@ -63,7 +63,7 @@ models|bb556eb363236518d8e6dfc2ced279e20f740946
 
 # Files containing Samsung package version for supported models
 version_SC-53C|db93f19869cac1a8fdc21b12eadf778d59738c97
-version_SM-A5360|c893a382fc637cc38b6a06c6f1ca18b16bb14d22
+version_SM-A5360|385617ae7b1901a82904333c70258a47e4ae471e
 version_SM-A536B|738daae7fa39a96f62481537b7084402e665214b
 version_SM-A536E|f7030f66aee9315d6e5cb65125e09d23859341f0
 version_SM-A536N|694709123e9bb0ff786e0f4235e8b512c04651e0
