@@ -39,10 +39,10 @@ PRODUCT_PACKAGES += \
     init.a53x.rc \
     init.a53x.unify.rc
 
-# Nfc
+# NFC
 PRODUCT_PACKAGES += android.hardware.nfc@1.2-service.samsung
 
-# Nfc - Configuration
+# NFC - Configuration
 PRODUCT_PACKAGES += \
     libese-nxp.conf \
     libnfc-nci.conf \
