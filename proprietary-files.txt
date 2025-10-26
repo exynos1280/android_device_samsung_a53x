@@ -142,11 +142,6 @@ vendor/firmware/gt9895_a53x.bin:recovery/root/vendor/firmware/gt9895_a53x.bin
 # RIL
 vendor/etc/floating_feature.xml
 
-# Security - Keymint
-vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.hardware.security.keymint-service.samsung
-vendor/lib64/libskeymint10device.so
-vendor/lib64/libskeymint_cli.so
-
 # Security - TEEgris - Firmware - for SM-A536B
 vendor/tee/driver/00000000-0000-0000-0000-494363447256:vendor/tee/SM-A536B/driver/00000000-0000-0000-0000-494363447256
 vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374:vendor/tee/SM-A536B/driver/00000000-0000-0000-0000-4d53546d7374
