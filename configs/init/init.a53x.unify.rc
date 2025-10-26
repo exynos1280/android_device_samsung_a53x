@@ -66,3 +66,21 @@ on early-init && property:ro.boot.em.model=SC-53C
 # Restart just to be safe.
 on boot
     restart audioserver
+
+service vendor.nfc_hal_service /vendor/bin/hw/nxp.android.hardware.nfc@1.2-service
+    disabled
+    class hal
+    user nfc
+    group nfc net_bt_admin
+
+service nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service.samsung
+    disabled
+    class hal
+    user nfc
+    group nfc
+
+on property:ro.vendor.nfc.feature.chipname=NXP
+    start vendor.nfc_hal_service
+
+on property:ro.vendor.nfc.feature.chipname=SLSI
+    start nfc_hal_service

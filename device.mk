@@ -45,10 +45,19 @@ PRODUCT_PACKAGES += android.hardware.nfc@1.2-service.samsung
 # NFC - Configuration
 PRODUCT_PACKAGES += \
     libese-nxp.conf \
-    libnfc-nci.conf \
+    libnfc-nci-NXP.conf \
+    libnfc-nci-SLSI.conf \
     libnfc-nxp.conf \
     libnfc-nxp_RF.conf \
     libnfc-sec-vendor.conf
+
+# NFC - Configuration symlinks
+PRODUCT_PACKAGES += \
+    libnfc-nci-NXP.SC-53C_symlink \
+    libnfc-nci-SLSI.SM-A5360_symlink \
+    libnfc-nci-SLSI.SM-A536B_symlink \
+    libnfc-nci-SLSI.SM-A536E_symlink \
+    libnfc-nci-SLSI.SM-A536N_symlink
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay

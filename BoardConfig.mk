@@ -24,8 +24,5 @@ DEVICE_PATH := device/samsung/a53x
 # DTBO
 BOARD_DTBO_CFG := $(DEVICE_PATH)/configs/kernel/a53x.cfg
 
-# Manifest
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
-
 # UDFPS
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x400000000LL

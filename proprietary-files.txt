@@ -108,7 +108,6 @@ vendor/firmware/mfc_fw.bin:vendor/firmware/SM-A536B/mfc_fw.bin
 vendor/firmware/os.checked.bin:vendor/firmware/SM-A536B/os.checked.bin
 
 # Firmware - from SC-53C - SC53COMU1DYF2
-vendor/firmware/SC-53C/nfc/libsn100u_fw.so|3f2e06db925881ef846e93b39d2d5563ad8e0995
 vendor/firmware/SC-53C/NPU.bin|6bc0aea24d025ac61d76ed7b5f94d86b91ed6f20
 vendor/firmware/SC-53C/mfc_fw.bin|b941d65575720c61eb822266a323dff7d92cab42
 vendor/firmware/SC-53C/os.checked.bin|a6ce0b25502e9341d0ba6556617b7d95c6890db4
@@ -132,6 +131,15 @@ vendor/firmware/SM-A536N/os.checked.bin|d09bf28af31a12a3f07cfefb3b20a762d23b79b3
 vendor/firmware/NPU.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/mfc_fw.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/os.checked.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+
+# NFC - from SC-53C - SC53COMU1DYF2
+vendor/bin/hw/nxp.android.hardware.nfc@1.2-service|abc05f02698f23b207d8740566c35ce9fc71535c
+vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc|5ea26a6c13ccf810c52c4cc4a3518c14fe065fbe
+vendor/lib64/nfc_nci_nxpsn.so|5e160be9cc376d72b04f5a1af8d42d4669531892|d9454ca31024acb10cbcb06463483df14b0041f8
+vendor/lib64/vendor.samsung.hardware.nfc@2.0.so|256d71fb4817aa9ec9eaa77e768a0538ac77916a
+
+# NFC - Firmware - from SC-53C - SC53COMU1DYF2
+vendor/firmware/SC-53C/nfc/libsn100u_fw.so|3f2e06db925881ef846e93b39d2d5563ad8e0995
 
 # Ramdisk - Firmware
 vendor/firmware/gt9895_a53x.bin:vendor_ramdisk/vendor/firmware/gt9895_a53x.bin

@@ -3,8 +3,49 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+install_symlink {
+    name: "libnfc-nci-NXP.SC-53C_symlink",
+    installed_location: "etc/libnfc-nci-SC-53C..conf",
+    symlink_target: "/vendor/etc/libnfc-nci-NXP.conf",
+    vendor: true,
+}
+
+install_symlink {
+    name: "libnfc-nci-SLSI.SM-A5360_symlink",
+    installed_location: "etc/libnfc-nci-SM-A5360..conf",
+    symlink_target: "/vendor/etc/libnfc-nci-SLSI.conf",
+    vendor: true,
+}
+
+install_symlink {
+    name: "libnfc-nci-SLSI.SM-A536B_symlink",
+    installed_location: "etc/libnfc-nci-SM-A536B..conf",
+    symlink_target: "/vendor/etc/libnfc-nci-SLSI.conf",
+    vendor: true,
+}
+
+install_symlink {
+    name: "libnfc-nci-SLSI.SM-A536E_symlink",
+    installed_location: "etc/libnfc-nci-SM-A536E..conf",
+    symlink_target: "/vendor/etc/libnfc-nci-SLSI.conf",
+    vendor: true,
+}
+
+install_symlink {
+    name: "libnfc-nci-SLSI.SM-A536N_symlink",
+    installed_location: "etc/libnfc-nci-SM-A536N..conf",
+    symlink_target: "/vendor/etc/libnfc-nci-SLSI.conf",
+    vendor: true,
+}
+
 prebuilt_etc {
-    name: "libnfc-nci.conf",
-    src: "libnfc-nci.conf",
+    name: "libnfc-nci-NXP.conf",
+    src: "libnfc-nci-NXP.conf",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "libnfc-nci-SLSI.conf",
+    src: "libnfc-nci-SLSI.conf",
     vendor: true,
 }
