@@ -40,6 +40,9 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/libexynoscamera3.so': blob_fixup()
         .add_needed('libshim_camera.so')
         .binary_regex_replace(b'_ZN7android5Fence', b'_ZN7exynos55Fence'),
+    # NFC
+    'vendor/lib64/nfc_nci_nxpsn.so': blob_fixup()
+        .add_needed('libbase_shim.so')
 }  # fmt: skip
 
 module = ExtractUtilsModule(

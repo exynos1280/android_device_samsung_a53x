@@ -9,3 +9,8 @@ soong_namespace {
         "device/samsung/s5e8825-common",
     ],
 }
+
+prebuilt_hidl_interfaces {
+    name: "hidl_samsung_nfc_interface",
+    interfaces: [ "vendor.samsung.hardware.nfc@2.0::ISehNfc" ],
+}
