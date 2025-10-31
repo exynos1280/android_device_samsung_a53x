@@ -54,6 +54,7 @@ PRODUCT_PACKAGES += \
 # NFC - Configuration symlinks
 PRODUCT_PACKAGES += \
     libnfc-nci-NXP.SC-53C_symlink \
+    libnfc-nci-NXP.SCG15_symlink \
     libnfc-nci-SLSI.SM-A5360_symlink \
     libnfc-nci-SLSI.SM-A536B_symlink \
     libnfc-nci-SLSI.SM-A536E_symlink \

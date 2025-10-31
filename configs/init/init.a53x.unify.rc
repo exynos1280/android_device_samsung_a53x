@@ -50,6 +50,19 @@ on early-init && property:ro.boot.em.model=SM-A536N
     # TEEgris
     mount none /vendor/tee/SM-A536N /vendor/tee bind
 
+# a53xdcm (jpn_kdi)
+on early-init && property:ro.boot.em.model=SCG15
+    # Firmware blobs
+    mount none /vendor/firmware/SCG15/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SCG15/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SCG15/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SCG15/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SCG15/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SCG15/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SCG15/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SCG15 /vendor/tee bind
+
 # a53xdcm (jpn_dcm)
 on early-init && property:ro.boot.em.model=SC-53C
     # Firmware blobs

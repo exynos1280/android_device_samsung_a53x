@@ -10,6 +10,18 @@ tzar.img_SC-53C|05be35e6ae6589f24245cbe7ffb9b42aad170ef3
 tzsw.img_SC-53C|aefccd20f832a31031269194aec00b70e1e45665
 uh.bin_SC-53C|93de45cb1f34fed539e27fd3cd2256e9b2cc8eed
 
+# Firmware for model SCG15 - from Samsung package version SCG15KDU1DYF1
+fld.bin_SCG15|d49840cddf5e6d65a7bfae6b1959179e882d14cc
+harx.bin_SCG15|aae33ff32670ba9ccd5ff12151638e964772cb0a
+keystorage.bin_SCG15|d094b6c2bfbe2c915678f604b615f95d0ed8b149
+ldfw.img_SCG15|9230a2f40631122321fd702bb87463e217be2035
+modem.bin_SCG15|52aa1f71b1afcd2e5bbf052702a2d95d77f86219
+modem_debug.bin_SCG15|dc541becb9864609053a7c1d1a9f7a5fd76639e6
+sboot.bin_SCG15|4f6571a16ea091feb6fcccbfb678670267d9e8f8
+tzar.img_SCG15|3572531259c63e75c0c7a27d3bd3bf838b5b5c17
+tzsw.img_SCG15|3fc078f38eab0d871030ec34b7e26ef92a24ec31
+uh.bin_SCG15|c1f2250406bf68c3a7e24c4b212dcfc5194b97ca
+
 # Firmware for model SM-A5360 - from Samsung package version A5360ZHSHFYI1
 fld.bin_SM-A5360|ae0b48ebaa734fe934b6c42ccf1a6dd2313d3944
 harx.bin_SM-A5360|0fc438ccb9834f404d0947ea4df51123cb0fea91
@@ -59,10 +71,11 @@ tzsw.img_SM-A536N|9ab8359ac8b53e03bf91bad692d199e80963b694
 uh.bin_SM-A536N|260b2675991b26d08de70b659447f0c07e25becf
 
 # File containing the supported models, one per line
-models|bb556eb363236518d8e6dfc2ced279e20f740946
+models|a315149e837c4641df2be66ae1c90d694c5880b0
 
 # Files containing Samsung package version for supported models
 version_SC-53C|db93f19869cac1a8fdc21b12eadf778d59738c97
+version_SCG15|e83a10792def69aa296c8f69b10af60b1f800b93
 version_SM-A5360|385617ae7b1901a82904333c70258a47e4ae471e
 version_SM-A536B|738daae7fa39a96f62481537b7084402e665214b
 version_SM-A536E|f7030f66aee9315d6e5cb65125e09d23859341f0

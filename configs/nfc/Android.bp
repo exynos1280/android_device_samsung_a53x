@@ -11,6 +11,13 @@ install_symlink {
 }
 
 install_symlink {
+    name: "libnfc-nci-NXP.SCG15_symlink",
+    installed_location: "etc/libnfc-nci-SCG15..conf",
+    symlink_target: "/vendor/etc/libnfc-nci-NXP.conf",
+    vendor: true,
+}
+
+install_symlink {
     name: "libnfc-nci-SLSI.SM-A5360_symlink",
     installed_location: "etc/libnfc-nci-SM-A5360..conf",
     symlink_target: "/vendor/etc/libnfc-nci-SLSI.conf",
